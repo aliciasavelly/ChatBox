@@ -33,6 +33,7 @@ body {
   margin: 0;
   border-radius: 6px 6px 0 0;
   letter-spacing: 0.6px;
+  cursor: default;
 }
 
 .close {
@@ -41,11 +42,18 @@ body {
   right: 4px;
   top: 3px;
   cursor: pointer;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.close:hover {
+  background: #2886F7;
 }
 
 .message-index {
   height: 250px;
   background: #F6F6F6;
+  cursor: default;
 }
 
 .message {
@@ -155,6 +163,7 @@ body {
   align-self: center;
   color: #FFFFFF;
   font-size: 10px;
+  cursor: pointer;
   border-radius: 15px;
   background: rgba(28,175,252,1);
   background: -moz-linear-gradient(top, rgba(28,175,252,1) 0%, rgba(28,173,252,1) 12%, rgba(28,175,252,1) 16%, rgba(21,149,250,1) 46%, rgba(12,118,248,1) 82%, rgba(12,119,248,1) 100%);
